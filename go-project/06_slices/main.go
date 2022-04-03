@@ -28,4 +28,7 @@ func main() {
 	for _, value := range foo {
 		fmt.Println(value)
 	}
+
+	foo = append(foo, "Tehran")
+	fmt.Println(foo)
 }
